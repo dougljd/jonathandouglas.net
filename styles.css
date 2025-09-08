@@ -42,7 +42,6 @@ footer {
     margin-top: 32px;
 }
 
-/* Hobbies section styling */
 .hobby-list {
     list-style: none;
     padding: 0;
@@ -74,5 +73,55 @@ footer {
 
 .hobby-link:hover {
     color: #3949ab;
+    text-decoration: underline;
+}
+
+/* Video Games Page Styles */
+.games-section {
+    max-width: 600px;
+    margin: 32px auto 0 auto;
+    background: #f8fafc;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    padding: 32px 28px 28px 28px;
+    text-align: center;
+}
+
+.games-section h2 {
+    margin-top: 0;
+    font-size: 2em;
+    color: #1a237e;
+    letter-spacing: 1px;
+}
+
+.games-list {
+    text-align: left;
+    margin: 28px auto 32px auto;
+    padding-left: 32px;
+    font-size: 1.15em;
+    line-height: 1.7;
+}
+
+.games-list li {
+    margin-bottom: 10px;
+    padding-left: 4px;
+}
+
+.emoji {
+    font-size: 1.2em;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 18px;
+    color: #3949ab;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+.back-link:hover {
+    color: #1a237e;
     text-decoration: underline;
 }
