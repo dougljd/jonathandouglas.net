@@ -1,17 +1,17 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', Arial, sans-serif;
-    background: linear-gradient(135deg, #11081a 0%, #1a1026 100%);
+    background: linear-gradient(135deg, #1b0e2d 0%, #2a1557 100%);
     color: #e0d7f7;
     min-height: 100vh;
 }
 
 header{
-    background: linear-gradient(90deg, #1a1026 0%, #23113a 100%);
+    background: linear-gradient(90deg, #2a1557 0%, #4b2a8c 100%);
     color: #e0d7f7;
     padding: 24px 16px 16px 16px;
     text-align: center;
-    border-bottom: 2px solid #23113a;
+    border-bottom: 2px solid #4b2a8c;
     box-shadow: 0 2px 12px rgba(42, 18, 66, 0.25);
     margin-top: 0;
 }
@@ -29,23 +29,23 @@ header{
 main {
     flex: 2;
     padding: 32px 32px 32px 32px;
-    background: rgba(26, 16, 38, 0.97);
+    background: rgba(58, 34, 104, 0.97);
     border-radius: 18px;
-    box-shadow: 0 4px 32px rgba(42, 18, 66, 0.18);
+    box-shadow: 0 4px 32px rgba(75, 42, 140, 0.18);
     margin-right: 0;
-    border: 1.5px solid #23113a;
+    border: 1.5px solid #4b2a8c;
 }
 
 .main-section-title {
-    color: #8e5fd6;
+    color: #b18cff;
     font-size: 2em;
     margin-bottom: 12px;
     letter-spacing: 1px;
-    text-shadow: 0 2px 8px #1a1026;
+    text-shadow: 0 2px 8px #2a1557;
 }
 
 .main-section-subtitle {
-    color: #6c4a99;
+    color: #a084e8;
     font-size: 1.2em;
     margin-top: 32px;
     margin-bottom: 10px;
@@ -54,9 +54,9 @@ main {
 }
 
 .main-card-list {
-    background: rgba(35, 17, 58, 0.92);
+    background: rgba(75, 42, 140, 0.92);
     border-radius: 12px;
-    box-shadow: 0 2px 12px rgba(42, 18, 66, 0.13);
+    box-shadow: 0 2px 12px rgba(75, 42, 140, 0.13);
     padding: 18px 24px;
     margin-bottom: 24px;
     list-style: none;
@@ -64,14 +64,14 @@ main {
     display: flex;
     flex-wrap: wrap;
     gap: 12px 24px;
-    border: 1px solid #23113a;
+    border: 1px solid #4b2a8c;
 }
 
 .main-card-list li {
-    background: #1a1026;
+    background: #2a1557;
     border-radius: 8px;
     padding: 10px 18px;
-    box-shadow: 0 1px 6px rgba(42, 18, 66, 0.08);
+    box-shadow: 0 1px 6px rgba(75, 42, 140, 0.08);
     font-weight: 500;
     min-width: 120px;
     text-align: center;
@@ -79,28 +79,28 @@ main {
     color: #e0d7f7;
 }
 .main-card-list li:hover {
-    background: #23113a;
-    color: #8e5fd6;
+    background: #4b2a8c;
+    color: #b18cff;
 }
 
 aside {
     flex: 1;
-    background: rgba(26, 16, 38, 0.96);
+    background: rgba(58, 34, 104, 0.96);
     margin-left: 0;
     padding: 24px 18px;
     border-radius: 16px;
-    box-shadow: 0 2px 16px rgba(42, 18, 66, 0.13);
-    border: 1.5px solid #23113a;
+    box-shadow: 0 2px 16px rgba(75, 42, 140, 0.13);
+    border: 1.5px solid #4b2a8c;
     color: #e0d7f7;
 }
 
 footer {
     text-align: center;
     padding: 18px;
-    background: linear-gradient(90deg, #1a1026 0%, #23113a 100%);
-    color: #8e5fd6;
+    background: linear-gradient(90deg, #2a1557 0%, #4b2a8c 100%);
+    color: #b18cff;
     margin-top: 32px;
-    border-top: 2px solid #23113a;
+    border-top: 2px solid #4b2a8c;
     font-size: 1.08em;
     letter-spacing: 1px;
 }
@@ -115,20 +115,20 @@ footer {
     font-size: 1.15em;
 }
 .hobby-list li {
-    background: #1a1026;
+    background: #2a1557;
     border-radius: 8px;
     padding: 12px 20px;
-    box-shadow: 0 1px 4px rgba(42, 18, 66, 0.08);
+    box-shadow: 0 1px 4px rgba(75, 42, 140, 0.08);
     color: #e0d7f7;
     transition: background 0.2s, color 0.2s;
 }
 .hobby-list li:hover {
-    background: #23113a;
-    color: #8e5fd6;
+    background: #4b2a8c;
+    color: #b18cff;
 }
 .hobby-link {
     text-decoration: none;
-    color: #8e5fd6;
+    color: #b18cff;
     font-weight: bold;
     transition: color 0.2s;
 }
@@ -138,14 +138,14 @@ footer {
 }
 
 .game-link {
-    color: #8e5fd6;
+    color: #b18cff;
     text-decoration: none;
     font-weight: 600;
     transition: color 0.2s, text-shadow 0.2s;
 }
 .game-link:hover {
     color: #fff;
-    text-shadow: 0 2px 8px #6c4a99;
+    text-shadow: 0 2px 8px #a084e8;
     text-decoration: underline;
 }
 
@@ -153,19 +153,19 @@ footer {
 .games-section {
     max-width: 600px;
     margin: 32px auto 0 auto;
-    background: rgba(26, 16, 38, 0.98);
+    background: rgba(58, 34, 104, 0.98);
     border-radius: 16px;
-    box-shadow: 0 2px 24px rgba(42, 18, 66, 0.18);
+    box-shadow: 0 2px 24px rgba(75, 42, 140, 0.18);
     padding: 32px 28px 28px 28px;
     text-align: center;
-    border: 1.5px solid #23113a;
+    border: 1.5px solid #4b2a8c;
 }
 .games-section h2 {
     margin-top: 0;
     font-size: 2em;
-    color: #8e5fd6;
+    color: #b18cff;
     letter-spacing: 1px;
-    text-shadow: 0 2px 8px #1a1026;
+    text-shadow: 0 2px 8px #2a1557;
 }
 .games-list {
     text-align: left;
@@ -178,15 +178,15 @@ footer {
     margin-bottom: 10px;
     padding-left: 4px;
     color: #e0d7f7;
-    background: #1a1026;
+    background: #2a1557;
     border-radius: 6px;
     padding: 8px 16px;
-    box-shadow: 0 1px 4px rgba(42, 18, 66, 0.08);
+    box-shadow: 0 1px 4px rgba(75, 42, 140, 0.08);
     transition: background 0.2s, color 0.2s;
 }
 .games-list li:hover {
-    background: #23113a;
-    color: #8e5fd6;
+    background: #4b2a8c;
+    color: #b18cff;
 }
 .emoji {
     font-size: 1.2em;
@@ -196,7 +196,7 @@ footer {
 .back-link {
     display: inline-block;
     margin-top: 18px;
-    color: #8e5fd6;
+    color: #b18cff;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.2s;
